@@ -548,10 +548,10 @@ public class Project {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] < min_cislo) {
                 min_cislo = numbers[i];
+            }
                 if (numbers[i] > max_cislo) {
                     max_cislo = numbers[i];
-                }
-            }
+                }    
         }
         System.out.println("Min value " + min_cislo + " Max value " + max_cislo);
     }
